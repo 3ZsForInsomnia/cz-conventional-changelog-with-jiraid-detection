@@ -53,7 +53,7 @@ module.exports = function(options) {
 
   // detect jira id in branch name
   var branchName = branch.sync() || '';
-  var jiraIdFound = branchName.match(/[A-Z]+-[0-9]+/) || [];
+  var jiraIdFound = branchName.match(/[A-Z0-9]+-[0-9]+/) || [];
   var defaultJiraId = jiraIdFound.shift();
 
   return {

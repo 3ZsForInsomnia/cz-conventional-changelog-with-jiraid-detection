@@ -296,7 +296,7 @@ describe('validation', function() {
 describe('defaults', function() {
   it('Jira id default', () => {
     const branchName = branch.sync() || '';
-    const jiraIdMatch = branchName.match(/[A-Z]+-[0-9]+/) || [];
+    const jiraIdMatch = branchName.match(/[A-Z0-9]+-[0-9]+/) || [];
     const jiraId = jiraIdMatch.shift(); // stirng or undefined ;
     expect(questionDefault('jira')).to.equal(jiraId);
   });
