@@ -1,7 +1,7 @@
 {
   "name": "cz-conventional-changelog-with-jiraid-detection",
   "version": "1.0.3",
-  "description": "Prompts for conventional changelog standard with an extra step to insert Jira ID.",
+  "description": "Commitizen adapter following the conventional-changelog format with an extra step to insert Jira ID.",
   "main": "index.js",
   "scripts": {
     "commit": "git-cz",
@@ -24,7 +24,7 @@
   "author": "Daw-Chih Liou <dawochih.liou@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "chalk": "^2.4.1",
+    "chalk": "^3.0.0",
     "commitizen": "^4.0.3",
     "conventional-commit-types": "^3.0.0",
     "git-branch": "^2.0.1",
@@ -33,20 +33,21 @@
     "word-wrap": "^1.0.3"
   },
   "devDependencies": {
-    "@semantic-release/changelog": "^5.0.1",
-    "@semantic-release/commit-analyzer": "^8.0.1",
-    "@semantic-release/git": "^9.0.0",
-    "@semantic-release/github": "^7.1.1",
-    "@semantic-release/npm": "^7.0.6",
-    "@semantic-release/release-notes-generator": "^9.0.1",
-    "@types/chai": "^4.1.7",
-    "@types/mocha": "^5.2.7",
-    "chai": "^4.2.0",
-    "cosmiconfig": "^5.2.1",
-    "mocha": "^6.2.0",
-    "mock-require": "^3.0.3",
-    "prettier": "^1.15.3",
-    "semver": "^6.2.0"
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.6",
+    "@semantic-release/npm": "^9.0.1",
+    "@semantic-release/release-notes-generator": "^10.0.3",
+    "@types/chai": "4.3.3",
+    "@types/mocha": "9.1.1",
+    "chai": "4.3.6",
+    "cosmiconfig": "5.2.1",
+    "mocha": "9.2.2",
+    "mock-require": "3.0.3",
+    "prettier": "1.19.1",
+    "semantic-release": "19.0.5",
+    "semver": "6.3.0"
   },
   "optionalDependencies": {
     "@commitlint/load": ">6.1.1"
