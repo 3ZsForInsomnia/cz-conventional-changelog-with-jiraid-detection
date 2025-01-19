@@ -1,17 +1,17 @@
 {
-  "name": "cz-conventional-changelog-with-jiraid-detection",
+  "name": "@3zs4insomnia/cz-conventional-changelog-with-jiraid-detection",
   "version": "1.0.4",
-  "description": "Commitizen adapter following the conventional-changelog format with an extra step to insert Jira ID.",
+  "description": "Commitizen adapter following the conventional-changelog format with an extra step to insert Jira ID. Forked to support detecting lower case Jira IDs",
   "main": "index.js",
   "scripts": {
     "commit": "git-cz",
     "test": "mocha *.test.js",
     "format": "prettier --write *.js"
   },
-  "homepage": "https://github.com/DawChihLiou/cz-conventional-changelog-with-jiraid-detection",
+  "homepage": "https://github.com/3ZsForInsomnia/cz-conventional-changelog-with-jiraid-detection",
   "repository": {
     "type": "git",
-    "url": "https://github.com/DawChihLiou/cz-conventional-changelog-with-jiraid-detection.git"
+    "url": "https://github.com/3ZsForInsomnia/cz-conventional-changelog-with-jiraid-detection"
   },
   "engineStrict": true,
   "engines": {
@@ -21,7 +21,7 @@
     "index.js",
     "engine.js"
   ],
-  "author": "Daw-Chih Liou <dawochih.liou@gmail.com>",
+  "author": "Zachary Levine <zach@zjlevine.dev>",
   "license": "MIT",
   "dependencies": {
     "chalk": "^3.0.0",
