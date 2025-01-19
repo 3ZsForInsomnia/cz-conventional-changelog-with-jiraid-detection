@@ -1,6 +1,6 @@
 {
   "name": "@3zs4insomnia/cz-conventional-changelog-with-jiraid-detection",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Commitizen adapter following the conventional-changelog format with an extra step to insert Jira ID. Forked to support detecting lower case Jira IDs",
   "main": "index.js",
   "scripts": {
