@@ -10,13 +10,13 @@ Prompts for conventional changelog standard with an extra step to insert Jira ID
 
 ![Demo](media/demo.gif)
 
-Jira ID in the format of `/^[A-Z0-9]+-[0-9]+\$/`, "ADR-123" for example, will be automatically detected from the current branch name and be displayed as default at the prompt step. The step is optional so you can skip it if you do not have a Jira ID.
+Jira ID in the format of `/^[a-zA-Z0-9]+-[0-9]+\$/`, "ADR-123" (or "adr-123") for example, will be automatically detected from the current branch name and be displayed as default at the prompt step. The step is optional so you can skip it if you do not have a Jira ID.
 
 ## Install
 
 with npm
 
-```npm install --save-dev cz-conventional-changelog-with-jiraid-detection```
+```npm install --save-dev @3zs4insomnia/cz-conventional-changelog-with-jiraid-detection```
 
 or with yarn
 
