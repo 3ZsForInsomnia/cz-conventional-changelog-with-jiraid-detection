@@ -4,7 +4,8 @@
 ![ci](https://github.com/DawChihLiou/cz-conventional-changelog-with-jiraid-detection/workflows/ci/badge.svg)
 ![npm downloads](https://img.shields.io/npm/dm/cz-conventional-changelog-with-jiraid-detection)
 
-A fork of [cz-conventional-changelog](https://github.com/commitizen/cz-conventional-changelog).
+A fork of [cz-conventional-changelog-with-jiraid-detection
+](https://github.com/DawChihLiou/cz-conventional-changelog-with-jiraid-detection) which is in turn a fork of [cz-conventional-changelog](https://github.com/commitizen/cz-conventional-changelog).
 
 Prompts for conventional changelog standard with an extra step to insert Jira ID. Jira ID is auto-detected from your branch name by default.
 
@@ -20,14 +21,14 @@ with npm
 
 or with yarn
 
-```yarn add --dev cz-conventional-changelog-with-jiraid-detection```
+```yarn add --dev @zs4insomnia/cz-conventional-changelog-with-jiraid-detection```
 
 To enable it, please update your `package.config` as the following
 
 ```json5
 "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog-with-jiraid-detection"
+      "path": "./node_modules/@3zs4insomnia/cz-conventional-changelog-with-jiraid-detection"
     }
   },
 ```
